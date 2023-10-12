@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "C:/Users/lakshay.gautam/Desktop/Important/EktaKey.pem"
+  default     =  "EktaKey"
 }
 
 variable "instance_type" {
